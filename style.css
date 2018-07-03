@@ -71,3 +71,21 @@ h1 {
 	width: 200px;
 	padding-left: 50px;
 }
+
+.memberfoto img{
+	width: 250px;
+	padding: 10px;
+}
+
+.memberfoto{
+	text-align: center;
+	margin: 20px;
+}
+.memberfoto div {
+	display: inline-block;
+}
+
+.memberfoto a{
+	text-decoration: none;
+	color: #869986;
+}
