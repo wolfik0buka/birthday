@@ -6,8 +6,12 @@
 
 body {
 	background: #FFD5D5;
+	
+	
 }
-
+.page{
+	min-height: 100%;
+}
 
 .menu{
 	width: 90%;
@@ -25,6 +29,7 @@ body {
 .menu ul{
 	
 	font-size: 30px;
+	font-family: Palatino;
 	width:900px;
 	margin: auto;
 	text-align: center;
@@ -99,4 +104,19 @@ h1 {
 	width: 200px;
 	margin: 10px;
 	border: 2px solid #BFA8A8
+}
+
+
+.footer hr{
+	border: none; /* Убираем границу для браузера Firefox */
+    color: #BFA8A8; /* Цвет линии для остальных браузеров */
+    background-color: #BFA8A8; /* Цвет линии для браузера Firefox и Opera */
+    height: 2px; /* Толщина линии */
+    margin-bottom: 5px;
+}
+
+.footer p{
+	color:#BFA8A8;
+	margin: 5px;
+	padding: 2px;
 }
