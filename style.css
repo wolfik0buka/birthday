@@ -1,3 +1,9 @@
+
+@font-face{
+	font-family: Comic;
+	src: url(MyShrift.ttf);
+}
+
 body {
 	background: #FFD5D5;
 }
@@ -35,7 +41,7 @@ body {
 }
 
 .content{
-	font-family: Comic Sans MS;
+	font-family:Comic;
 	padding-top: 50px;
 	margin: auto;
 	width: 90%;
@@ -64,7 +70,6 @@ h1 {
 .waitings{
 	list-style-type: none;
 	font-size: 20px;
-	font-family: Comic Sans MS;
 }
 
 #mylogo {
@@ -88,4 +93,10 @@ h1 {
 .memberfoto a{
 	text-decoration: none;
 	color: #869986;
+}
+
+.wishes img{
+	width: 200px;
+	margin: 10px;
+	border: 2px solid #BFA8A8
 }
